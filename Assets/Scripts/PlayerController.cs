@@ -5,24 +5,31 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float velocity;
-
-    private Rigidbody rb;
+    public float rotationSpeed;
+    private Rigidbody _rb;
     
     private void Start()
     {
-        rb = this.GetComponent<Rigidbody>();
+        _rb = this.GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
 
         float moveHorizontal = Input.GetAxis ("Horizontal");
         float moveVertical = Input.GetAxis ("Vertical");
 
         Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+        _rb.velocity = movement * velocity;
 
-        Debug.Log(movement);
-        rb.velocity = movement * velocity;
+        if(Input.GetKey(KeyCode.D))
+        {
+            this.gameObject.transform.Rotate(0, (60 * Time.deltaTime), 0);
+        }
+        if(Input.GetKey(KeyCode.A))
+        {
+            this.gameObject.transform.Rotate(0, -(rotationSpeed * Time.deltaTime), 0);
+        }
         
     }
 }
