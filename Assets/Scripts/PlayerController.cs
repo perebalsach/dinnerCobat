@@ -16,15 +16,13 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
 
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        
-        
-        
-        Vector3 movement = new Vector3(horizontal, 0.0f, vertical);
+        float moveHorizontal = Input.GetAxis ("Horizontal");
+        float moveVertical = Input.GetAxis ("Vertical");
+
+        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
         Debug.Log(movement);
-        rb.velocity = movement * vertical;
+        rb.velocity = movement * velocity;
         
     }
 }
