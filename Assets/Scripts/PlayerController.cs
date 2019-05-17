@@ -16,20 +16,22 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
 
-        float moveHorizontal = Input.GetAxis ("Horizontal");
-        float moveVertical = Input.GetAxis ("Vertical");
-
-        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-        _rb.velocity = movement * velocity;
-
-        if(Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.W))
         {
-            this.gameObject.transform.Rotate(0, (60 * Time.deltaTime), 0);
+            this.gameObject.transform.position += transform.forward * velocity;
         }
+        if(Input.GetKey(KeyCode.S))
+        {
+            this.gameObject.transform.position += -transform.forward * velocity;
+        }
+
         if(Input.GetKey(KeyCode.A))
         {
-            this.gameObject.transform.Rotate(0, -(rotationSpeed * Time.deltaTime), 0);
+            this.transform.Rotate(new Vector3(0, -1, 0) * Time.deltaTime * rotationSpeed, Space.World);
         }
-        
+        if(Input.GetKey(KeyCode.D))
+        {
+            this.transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * rotationSpeed, Space.World);
+        }
     }
 }
