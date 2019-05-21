@@ -10,10 +10,10 @@ public class PlayerController : MonoBehaviour
     
     private void Start()
     {
-        rb = this.GetComponent<Rigidbody>();
+        _rb = this.GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
 
         float horizontal = Input.GetAxis("Horizontal");
