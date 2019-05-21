@@ -5,12 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float velocity;
-    public float dashForce;
-    private Rigidbody rb;
-    
+    public float tolerancia;
+
+    private Rigidbody _rb;
+    private Animator _animator;
+
     private void Start()
     {
         _rb = this.GetComponent<Rigidbody>();
+        _animator = this.GetComponent<Animator>();
     }
 
     private void Update()
@@ -25,16 +28,19 @@ public class PlayerController : MonoBehaviour
         {
             this.transform.forward = movement;
         }
+        
+        _rb.velocity = new Vector3(movement.x, movement.y, movement.z) * velocity;
 
-        rb.MovePosition(rb.position + movement * velocity * Time.fixedDeltaTime);
 
-        if (Input.GetKeyDown("space"))
+        if (Mathf.Abs(_rb.velocity.x) > tolerancia || Mathf.Abs(_rb.velocity.y) > tolerancia || Mathf.Abs(_rb.velocity.z) > tolerancia)
         {
-            Debug.Log("Dash");
-
-            Vector3 dashVelocity = Vector3.Scale(transform.forward, dashForce * new Vector3((Mathf.Log(1f / (Time.deltaTime * rb.drag + 1)) / -Time.deltaTime), 0, (Mathf.Log(1f / (Time.deltaTime * rb.drag + 1)) / -Time.deltaTime)));
-            rb.AddForce(dashVelocity, ForceMode.VelocityChange);
+            _animator.SetBool("move", true);
         }
+        else
+        {
+            _animator.SetBool("move", false);
+        }
+        
 
 
     }
