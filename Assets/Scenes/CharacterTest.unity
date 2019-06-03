@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4411897, g: 0.48996645, b: 0.5700328, a: 1}
+  m_IndirectSpecularColor: {r: 0.44118991, g: 0.48996723, b: 0.57003284, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -173,26 +173,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c4372b693a131854b8ea12a4c463ed8e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7da0a9f13a5619a43a1b1f942ba274a6, type: 3}
---- !u!1 &819930561 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: e8c0eaf37ccba41f69a3b3b6b435bf14,
-    type: 3}
-  m_PrefabInstance: {fileID: 1240690026}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &819930563
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819930561}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!1 &869477105
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e8c0eaf37ccba41f69a3b3b6b435bf14, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.76
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: e8c0eaf37ccba41f69a3b3b6b435bf14, type: 3}
       propertyPath: m_LocalPosition.z
@@ -335,6 +315,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: dd4f5da7066994717908c468be57b8b4, type: 2}
     - target: {fileID: 13700000, guid: e8c0eaf37ccba41f69a3b3b6b435bf14, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a68c75647755640ba58e1ecee48f63, type: 2}
+    - target: {fileID: 13700002, guid: e8c0eaf37ccba41f69a3b3b6b435bf14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d2a68c75647755640ba58e1ecee48f63, type: 2}
@@ -427,7 +411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff38283abd42148eb92d9759aad241d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 3
+  velocity: 6
+  tolerancia: 0
 --- !u!54 &1903028645
 Rigidbody:
   m_ObjectHideFlags: 0
