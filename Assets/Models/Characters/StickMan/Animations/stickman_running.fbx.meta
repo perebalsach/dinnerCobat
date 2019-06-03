@@ -46,6 +46,7 @@ ModelImporter:
     100080: mixamorig:Spine1
     100082: mixamorig:Spine2
     100084: //RootNode
+    100086: unamed
     400000: Group1
     400002: mixamorig:Head
     400004: mixamorig:HeadTop_End
@@ -89,11 +90,14 @@ ModelImporter:
     400080: mixamorig:Spine1
     400082: mixamorig:Spine2
     400084: //RootNode
+    400086: unamed
     2100000: No Name
     4300000: Group1
+    4300002: unamed
     7400000: run
     9500000: //RootNode
     13700000: Group1
+    13700002: unamed
   externalObjects: {}
   materials:
     importMaterials: 1
