@@ -1,101 +1,105 @@
 fileFormatVersion: 2
-guid: fba56b9dabe254f9a8d59c450504910e
+guid: 2f27120fc0c924ed1969fc195f7e0697
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Ct_Head__SKN_0_JNT
-    100002: Ct_Head__SKN_1_JNT
-    100004: Ct_Neck__SKN_0_JNT
-    100006: Ct_Neck__SKN_1_JNT
-    100008: Ct_Root__SKN_0_JNT
-    100010: Ct_Spine__SKN_0_JNT
-    100012: Ct_Spine__SKN_1_JNT
-    100014: Ct_Spine__SKN_2_JNT
-    100016: Ct_Spine__SKN_3_JNT
-    100018: Lf_Arm__SKN_0_JNT
-    100020: Lf_Arm__SKN_1_JNT
-    100022: Lf_Arm__SKN_2_JNT
-    100024: Lf_HandPalm__SKN_0_JNT
-    100026: Lf_HandPalm__SKN_1_JNT
-    100028: Lf_HandPalm__SKN_2_JNT
-    100030: Lf_HandThumb__SKN_0_JNT
-    100032: Lf_HandThumb__SKN_1_JNT
-    100034: Lf_HandThumb__SKN_2_JNT
-    100036: Lf_Leg__SKN_0_JNT
-    100038: Lf_Leg__SKN_1_JNT
-    100040: Lf_Leg__SKN_2_JNT
-    100042: Lf_Leg__SKN_3_JNT
-    100044: Lf_Leg__SKN_4_JNT
-    100046: Lf_Scapula__SKN_0_JNT
-    100048: Lf_Scapula__SKN_1_JNT
-    100050: Rt_Arm__SKN_0_JNT
-    100052: Rt_Arm__SKN_1_JNT
-    100054: Rt_Arm__SKN_2_JNT
-    100056: Rt_HandPalm__SKN_0_JNT
-    100058: Rt_HandPalm__SKN_1_JNT
-    100060: Rt_HandPalm__SKN_2_JNT
-    100062: Rt_HandThumb__SKN_0_JNT
-    100064: Rt_HandThumb__SKN_1_JNT
-    100066: Rt_HandThumb__SKN_2_JNT
-    100068: Rt_Leg__SKN_0_JNT
-    100070: Rt_Leg__SKN_1_JNT
-    100072: Rt_Leg__SKN_2_JNT
-    100074: Rt_Leg__SKN_3_JNT
-    100076: Rt_Leg__SKN_4_JNT
-    100078: Rt_Scapula__SKN_0_JNT
-    100080: Rt_Scapula__SKN_1_JNT
-    100082: //RootNode
-    100084: geo
-    400000: Ct_Head__SKN_0_JNT
-    400002: Ct_Head__SKN_1_JNT
-    400004: Ct_Neck__SKN_0_JNT
-    400006: Ct_Neck__SKN_1_JNT
-    400008: Ct_Root__SKN_0_JNT
-    400010: Ct_Spine__SKN_0_JNT
-    400012: Ct_Spine__SKN_1_JNT
-    400014: Ct_Spine__SKN_2_JNT
-    400016: Ct_Spine__SKN_3_JNT
-    400018: Lf_Arm__SKN_0_JNT
-    400020: Lf_Arm__SKN_1_JNT
-    400022: Lf_Arm__SKN_2_JNT
-    400024: Lf_HandPalm__SKN_0_JNT
-    400026: Lf_HandPalm__SKN_1_JNT
-    400028: Lf_HandPalm__SKN_2_JNT
-    400030: Lf_HandThumb__SKN_0_JNT
-    400032: Lf_HandThumb__SKN_1_JNT
-    400034: Lf_HandThumb__SKN_2_JNT
-    400036: Lf_Leg__SKN_0_JNT
-    400038: Lf_Leg__SKN_1_JNT
-    400040: Lf_Leg__SKN_2_JNT
-    400042: Lf_Leg__SKN_3_JNT
-    400044: Lf_Leg__SKN_4_JNT
-    400046: Lf_Scapula__SKN_0_JNT
-    400048: Lf_Scapula__SKN_1_JNT
-    400050: Rt_Arm__SKN_0_JNT
-    400052: Rt_Arm__SKN_1_JNT
-    400054: Rt_Arm__SKN_2_JNT
-    400056: Rt_HandPalm__SKN_0_JNT
-    400058: Rt_HandPalm__SKN_1_JNT
-    400060: Rt_HandPalm__SKN_2_JNT
-    400062: Rt_HandThumb__SKN_0_JNT
-    400064: Rt_HandThumb__SKN_1_JNT
-    400066: Rt_HandThumb__SKN_2_JNT
-    400068: Rt_Leg__SKN_0_JNT
-    400070: Rt_Leg__SKN_1_JNT
-    400072: Rt_Leg__SKN_2_JNT
-    400074: Rt_Leg__SKN_3_JNT
-    400076: Rt_Leg__SKN_4_JNT
-    400078: Rt_Scapula__SKN_0_JNT
-    400080: Rt_Scapula__SKN_1_JNT
-    400082: //RootNode
-    400084: geo
-    2100000: heroSG
-    4300000: geo
-    7400000: runTake
-    7400002: run
-    7400004: run (1)
+    100000: //RootNode
+    100002: Ct_Head__SKN_0_JNT
+    100004: Ct_Head__SKN_1_JNT
+    100006: Ct_Neck__SKN_0_JNT
+    100008: Ct_Neck__SKN_1_JNT
+    100010: Ct_Root__SKN_0_JNT
+    100012: Ct_Spine__SKN_0_JNT
+    100014: Ct_Spine__SKN_1_JNT
+    100016: Ct_Spine__SKN_2_JNT
+    100018: Ct_Spine__SKN_3_JNT
+    100020: Lf_Arm__SKN_0_JNT
+    100022: Lf_Arm__SKN_1_JNT
+    100024: Lf_Arm__SKN_2_JNT
+    100026: Lf_HandPalm__SKN_0_JNT
+    100028: Lf_HandPalm__SKN_1_JNT
+    100030: Lf_HandPalm__SKN_2_JNT
+    100032: Lf_HandThumb__SKN_0_JNT
+    100034: Lf_HandThumb__SKN_1_JNT
+    100036: Lf_HandThumb__SKN_2_JNT
+    100038: Lf_Leg__SKN_0_JNT
+    100040: Lf_Leg__SKN_1_JNT
+    100042: Lf_Leg__SKN_2_JNT
+    100044: Lf_Leg__SKN_3_JNT
+    100046: Lf_Leg__SKN_4_JNT
+    100048: Lf_Scapula__SKN_0_JNT
+    100050: Lf_Scapula__SKN_1_JNT
+    100052: Rt_Arm__SKN_0_JNT
+    100054: Rt_Arm__SKN_1_JNT
+    100056: Rt_Arm__SKN_2_JNT
+    100058: Rt_HandPalm__SKN_0_JNT
+    100060: Rt_HandPalm__SKN_1_JNT
+    100062: Rt_HandPalm__SKN_2_JNT
+    100064: Rt_HandThumb__SKN_0_JNT
+    100066: Rt_HandThumb__SKN_1_JNT
+    100068: Rt_HandThumb__SKN_2_JNT
+    100070: Rt_Leg__SKN_0_JNT
+    100072: Rt_Leg__SKN_1_JNT
+    100074: Rt_Leg__SKN_2_JNT
+    100076: Rt_Leg__SKN_3_JNT
+    100078: Rt_Leg__SKN_4_JNT
+    100080: Rt_Scapula__SKN_0_JNT
+    100082: Rt_Scapula__SKN_1_JNT
+    100084: weapon:mesh_weapon
+    100086: weapon:weapon_grp
+    400000: //RootNode
+    400002: Ct_Head__SKN_0_JNT
+    400004: Ct_Head__SKN_1_JNT
+    400006: Ct_Neck__SKN_0_JNT
+    400008: Ct_Neck__SKN_1_JNT
+    400010: Ct_Root__SKN_0_JNT
+    400012: Ct_Spine__SKN_0_JNT
+    400014: Ct_Spine__SKN_1_JNT
+    400016: Ct_Spine__SKN_2_JNT
+    400018: Ct_Spine__SKN_3_JNT
+    400020: Lf_Arm__SKN_0_JNT
+    400022: Lf_Arm__SKN_1_JNT
+    400024: Lf_Arm__SKN_2_JNT
+    400026: Lf_HandPalm__SKN_0_JNT
+    400028: Lf_HandPalm__SKN_1_JNT
+    400030: Lf_HandPalm__SKN_2_JNT
+    400032: Lf_HandThumb__SKN_0_JNT
+    400034: Lf_HandThumb__SKN_1_JNT
+    400036: Lf_HandThumb__SKN_2_JNT
+    400038: Lf_Leg__SKN_0_JNT
+    400040: Lf_Leg__SKN_1_JNT
+    400042: Lf_Leg__SKN_2_JNT
+    400044: Lf_Leg__SKN_3_JNT
+    400046: Lf_Leg__SKN_4_JNT
+    400048: Lf_Scapula__SKN_0_JNT
+    400050: Lf_Scapula__SKN_1_JNT
+    400052: Rt_Arm__SKN_0_JNT
+    400054: Rt_Arm__SKN_1_JNT
+    400056: Rt_Arm__SKN_2_JNT
+    400058: Rt_HandPalm__SKN_0_JNT
+    400060: Rt_HandPalm__SKN_1_JNT
+    400062: Rt_HandPalm__SKN_2_JNT
+    400064: Rt_HandThumb__SKN_0_JNT
+    400066: Rt_HandThumb__SKN_1_JNT
+    400068: Rt_HandThumb__SKN_2_JNT
+    400070: Rt_Leg__SKN_0_JNT
+    400072: Rt_Leg__SKN_1_JNT
+    400074: Rt_Leg__SKN_2_JNT
+    400076: Rt_Leg__SKN_3_JNT
+    400078: Rt_Leg__SKN_4_JNT
+    400080: Rt_Scapula__SKN_0_JNT
+    400082: Rt_Scapula__SKN_1_JNT
+    400084: weapon:mesh_weapon
+    400086: weapon:weapon_grp
+    2100000: weapon_Default OBJ
+    2300000: weapon:mesh_weapon
+    3300000: weapon:mesh_weapon
+    4300000: weapon:mesh_weapon
+    7400000: attack
+    7400002: attack
+    7400004: attack01
+    7400006: attackTake
     9500000: //RootNode
-    13700000: geo
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -125,17 +129,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: runTake
+      name: attackTake
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 24
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -153,10 +157,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: run
-      takeName: run
+      name: attack
+      takeName: attack
       firstFrame: 1
-      lastFrame: 24
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -204,7 +208,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.04
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
