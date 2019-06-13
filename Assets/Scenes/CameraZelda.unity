@@ -391,14 +391,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269214345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff38283abd42148eb92d9759aad241d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b87d0696e312004a815ba7ad7efc9b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  tolerancia: 0
-  DashDistance: 5
-  dashStoppingSpeed: 0.001
-  dashSpeed: 100
+  _directionDampTime: 0.25
+  _animator: {fileID: 0}
+  directionSpeed: 0
 --- !u!4 &1269214348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400020, guid: cef09759745794129a403927fec036e4,
