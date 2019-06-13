@@ -45,6 +45,8 @@ ModelImporter:
     100078: Rt_Leg__SKN_4_JNT
     100080: Rt_Scapula__SKN_0_JNT
     100082: Rt_Scapula__SKN_1_JNT
+    100084: weapon:mesh_weapon
+    100086: weapon:weapon_grp
     400000: Ct_Head__SKN_0_JNT
     400002: Ct_Head__SKN_1_JNT
     400004: Ct_Neck__SKN_0_JNT
@@ -87,6 +89,11 @@ ModelImporter:
     400078: Rt_Leg__SKN_4_JNT
     400080: Rt_Scapula__SKN_0_JNT
     400082: Rt_Scapula__SKN_1_JNT
+    400084: weapon:mesh_weapon
+    400086: weapon:weapon_grp
+    2300000: weapon:mesh_weapon
+    3300000: weapon:mesh_weapon
+    4300000: weapon:mesh_weapon
     7400000: _idle
     7400002: idle
     9500000: //RootNode

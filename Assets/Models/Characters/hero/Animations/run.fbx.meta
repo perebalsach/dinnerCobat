@@ -46,6 +46,8 @@ ModelImporter:
     100080: Rt_Scapula__SKN_1_JNT
     100082: //RootNode
     100084: geo
+    100086: weapon:mesh_weapon
+    100088: weapon:weapon_grp
     400000: Ct_Head__SKN_0_JNT
     400002: Ct_Head__SKN_1_JNT
     400004: Ct_Neck__SKN_0_JNT
@@ -89,8 +91,13 @@ ModelImporter:
     400080: Rt_Scapula__SKN_1_JNT
     400082: //RootNode
     400084: geo
+    400086: weapon:mesh_weapon
+    400088: weapon:weapon_grp
     2100000: heroSG
+    2300000: weapon:mesh_weapon
+    3300000: weapon:mesh_weapon
     4300000: geo
+    4300002: weapon:mesh_weapon
     7400000: runTake
     7400002: run
     7400004: run (1)
