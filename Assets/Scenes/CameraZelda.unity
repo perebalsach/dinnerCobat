@@ -396,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _directionDampTime: 0.25
   _animator: {fileID: 0}
-  directionSpeed: 0
+  directionSpeed: 2
 --- !u!4 &1269214348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400020, guid: cef09759745794129a403927fec036e4,
@@ -448,6 +448,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: cef09759745794129a403927fec036e4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ef082f1a883da33499f8eba30d5233b9, type: 2}
     - target: {fileID: 400020, guid: cef09759745794129a403927fec036e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -492,10 +496,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: cef09759745794129a403927fec036e4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9b794e67afe3b451bae933b347207a9e, type: 2}
     - target: {fileID: 13700000, guid: cef09759745794129a403927fec036e4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

@@ -14,10 +14,6 @@ public class CharacterLogicController : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-        if(_animator.layerCount >= 2)
-        {
-            _animator.SetLayerWeight(1, 1);
-        }
     }
 
     // Update is called once per frame
@@ -26,14 +22,11 @@ public class CharacterLogicController : MonoBehaviour
         if(_animator)
         {
             horizontal = Input.GetAxis("Horizontal");
+            _animator.SetFloat("InputZ", horizontal);
+
             vertical = Input.GetAxis("Vertical");          
+            _animator.SetFloat("InputX", vertical);
 
-            _speed = new Vector2(horizontal, vertical).sqrMagnitude;
-
-            Debug.Log(_speed);
-
-            _animator.SetFloat("Speed", _speed);
-            _animator.SetFloat("Direction", horizontal, _directionDampTime, Time.deltaTime);
 
         }
     }
