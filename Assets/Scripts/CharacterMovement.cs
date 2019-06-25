@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        _animator = this.GetComponent<Animator>();
+        _animator = this.GetComponentInChildren<Animator>();
     }
 
     void Update()
