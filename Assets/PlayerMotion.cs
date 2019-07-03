@@ -20,15 +20,16 @@ public class PlayerMotion : MonoBehaviour
 
     private void Update()
     {
-        var p = cam.transform.forward + this.transform.position;
         
         _hInput = Input.GetAxis("Horizontal") * rotationSpeed;
         _vInput = Input.GetAxis("Vertical") * moveSpeed;
 
         animator.SetFloat("direction", _vInput);
 
+        // var p = cam.transform.forward + this.transform.position;
+
         this.transform.Translate(Vector3.forward * _vInput * Time.deltaTime);
-        this.transform.Rotate(Vector3.up * (_hInput + p.y) * Time.deltaTime);
+        this.transform.Rotate(Vector3.up * _hInput * Time.deltaTime);
 
     }
 }
