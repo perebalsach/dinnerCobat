@@ -11,6 +11,7 @@ public class PlayerMotion : MonoBehaviour
 
     private float _vInput;
     private float _hInput;
+    private float _rVInput;
     private Animator animator;
 
     private void Start() 
@@ -21,12 +22,10 @@ public class PlayerMotion : MonoBehaviour
     private void Update()
     {
         
-        _hInput = Input.GetAxis("Horizontal") * rotationSpeed;
-        _vInput = Input.GetAxis("Vertical") * moveSpeed;
+        _hInput = Input.GetAxis("RightStickHorizontal") * rotationSpeed;
+        _vInput = Input.GetAxis("LeftStickVertical") * moveSpeed;
 
         animator.SetFloat("direction", _vInput);
-
-        // var p = cam.transform.forward + this.transform.position;
 
         this.transform.Translate(Vector3.forward * _vInput * Time.deltaTime);
         this.transform.Rotate(Vector3.up * _hInput * Time.deltaTime);
